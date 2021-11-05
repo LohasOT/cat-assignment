@@ -22,6 +22,7 @@ input {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 500px;
 }
 
 .container {
@@ -60,6 +61,11 @@ input {
   color: #A1690E;
 }
 
+.navbar {
+  background-color: #A1690E;
+  font-size: large;
+}
+
 #input {
   -moz-appearance: textbox;
   -webkit-appearance: textbox;
@@ -73,3 +79,73 @@ input {
   padding: 2px 3px;
   width: 300px;
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 5px;
+  }
+  h1 {
+    font-size: 15px;
+    color: #296EB4
+  }
+  input {
+    margin-top: 5px;
+    width: 50px;
+  }
+  .top {
+    text-align: center;
+    font-size: 30px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 5px #B1740F;
+    display: grid;
+    background-color: #B1740F;
+  }
+  .pic2 {
+    display: block;
+    width: 100%;
+  }
+  .empty {
+    margin-top: 10px;
+  }
+  .empty1 {
+    margin-top: 30px;
+  }
+  .para1 {
+    text-align: center;
+    font-size: 10px;
+    color: #A1690E;
+  }
+  .para2 {
+    text-align: center;
+    font-size: 10px;
+    color: #A1690E;
+  }
+  #input {
+    -moz-appearance: textbox;
+    -webkit-appearance: textbox;
+    background-color: #939374;
+    background-color: #939374;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 5px;
+    padding: 2px 3px;
+    width: 100px;
+    height: 240px;
+  }
+  .navbar {
+    background-color: #A1690E;
+    font-size: 10px;
+  }
